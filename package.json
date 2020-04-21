@@ -8,7 +8,8 @@
   "scripts": {
     "start": "run-p watch serve",
     "watch": "parcel watch src/index.html",
-    "serve": "node dev-server"
+    "serve": "node dev-server",
+    "build": "parcel build src/index.html"
   },
   "dependencies": {
     "immer": "^6.0.3",
