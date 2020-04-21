@@ -1,0 +1,19 @@
+.galleryItem {
+  margin-bottom: 16px;
+  margin-right: 16px;
+}
+
+.column {
+  flex: 1;
+}
+
+.column:last-child .galleryItem {
+  margin-right: 0px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  max-width: 900px;
+  margin: auto;
+}

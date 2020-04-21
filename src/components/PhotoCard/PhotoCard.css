@@ -1,0 +1,9 @@
+.photoCard {
+  font-size: 0;
+  padding: 8px;
+  box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.1), 2px 1px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.photo {
+  width: 100%;
+}

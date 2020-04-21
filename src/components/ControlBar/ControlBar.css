@@ -1,0 +1,43 @@
+.controlBar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 24px;
+  box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.1), 2px 1px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.controlBarItem {
+  flex: 1;
+  white-space: nowrap;
+  margin-right: 16px;
+}
+
+.controlBarItem:last-child {
+  margin-right: 0;
+}
+
+.primaryButton {
+  background-color: #111;
+  color: white;
+  -webkit-appearance: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 16px;
+  font-size: 16px;
+  transition: background-color 120ms linear;
+  display: inline-block;
+}
+
+.primaryButton:disabled {
+  background-color: grey;
+  background-color: lightgrey;
+}
+
+.currentPageText {
+  color: #777;
+}
