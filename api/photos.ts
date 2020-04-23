@@ -22,6 +22,7 @@ export default (req: NowRequest, res: NowResponse) => {
       },
     },
     unsplashRes => {
+      res.setHeader('x-total', unsplashRes.headers['x-total']);
       unsplashRes.pipe(res);
     },
   );
